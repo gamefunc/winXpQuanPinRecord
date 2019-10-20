@@ -1,2 +1,4 @@
 # winXpQuanPinRecord
 使用python3录制WINXP 全拼输入法5.0的字顺序导入到win10用户自定义短语
+
+解除部分老人比如我不喜欢动态排序的人
