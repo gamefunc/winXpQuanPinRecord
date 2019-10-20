@@ -1,0 +1,2 @@
+# winXpQuanPinRecord
+使用python3录制WINXP 全拼输入法5.0的字顺序导入到win10用户自定义短语
