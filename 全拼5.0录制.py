@@ -1,11 +1,26 @@
 import pynput, time
 """
 pynput 录制全拼输入法;
-打开记事本,切到全拼输入法5.0
 其实就是自动鼠标键盘操作;
 得出来的格式
 # 格式 ai=爱=1, 拼音=字=顺序;
 之后使用<深蓝词库转换.exe>转为WIN10的格式;
+
+我录制的步骤:
+1: 有个虚拟机装WINXP
+2: 进去WINXP虚拟机后装PYTHON3.44(PYTHON只支持XP到PY3.4.4)
+3: pip install pynput
+4: 打开一个记事本
+5: 鼠标点击记事本并且切换到全拼5.0输入法
+6: 运行该脚本,5秒之内一定要点击一次记事本
+7: 之后他自动操作了,可以挂机去干其他;
+8: 录制完毕后,把TXT的内容复制出来即可
+9: 自己写个大写转小写 open().read().lower();
+10: 使用深蓝词库转换到win10可导入的格式(设置图已上传),下载地址如下: 
+https://github.com/studyzy/imewlconverter/releases
+11: WIN10自定义短语导入即可;
+
+PS:理论上只要有足够拼音,就能录制全部语言;
 """
 
 allPinYin = ['a','ai', 'an', 'ang', 'ao', \
